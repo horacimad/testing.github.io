@@ -1,0 +1,47 @@
+.rotation-1 main {
+  max-width: 300px;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg); }
+
+.rotation-2 main {
+  width: 70%; }
+.rotation-2 h1 {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 375px;
+  left: -30vw;
+  font-size: 70px; }
+.rotation-2 section {
+  margin-left: 100px; }
+
+.rotation-3 main {
+  width: 70%;
+  margin-top: 200px; }
+.rotation-3 h1 {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  float: left;
+  shape-outside: polygon(nonzero, -58px 80.55%, 75.95% -70px, 89.55% -33.65%, -13.4% 121.45%);
+  padding-bottom: 200px; }
+
+.rotation-4 main {
+  width: 300px; }
+@media (min-width: 500px) {
+  .rotation-4 main {
+    background: red;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg); } }
+@media (min-width: 700px) {
+  .rotation-4 main {
+    background: green;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg); } }
+@media (min-width: 900px) {
+  .rotation-4 main {
+    width: 400px;
+    background: blue;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg); } }
+
+/*# sourceMappingURL=rotation.css.map */

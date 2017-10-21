@@ -1,0 +1,67 @@
+body {
+  font-family: Georgia, Helvetica, Arial, "pt-sans", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.35em;
+  font-size: 16px;
+  color: #444;
+  background: white; }
+
+h1 {
+  font-family: Georgia, Helvetica, Arial,"magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #000;
+  font-size: 48px; }
+
+h2 {
+  font-family: Georgia, Helvetica, Arial, "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 36px; }
+
+h3 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 32px; }
+
+h4 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 24px; }
+
+h5 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 18px; }
+
+h6 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 16px; }
+
+p {
+  margin: 1em 0; }
+
+a {
+  color: #1078C2; }
+
+.alt main {
+  font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #000; }
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #000; }

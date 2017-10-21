@@ -1,0 +1,15 @@
+htm, body {
+  margin: 0;
+  padding: 0; }
+
+main {
+  width: 80%;
+  margin: 2em auto; }
+
+section {
+  margin: 100px 0; }
+
+footer {
+  text-align: center;
+  margin: 3em 0 3em 0;
+  clear: both; }
