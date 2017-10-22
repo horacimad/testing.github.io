@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Videoscroll - micro interaction 01</title>
+<title>Excentric Lab - Videoscroll</title>
 <meta charset="utf-8" />
 <script src=jquery-3.2.1.min.js></script>
 <script>
@@ -11,8 +11,20 @@
 $(window).scroll(function(){
 	var myvid = $('#v')[0];
   var scroll = $(this).scrollTop();
-  scroll > 70 ? myvid.play() : myvid.pause()
+  scroll > 70 ? myvid.play() : myvid.pause();
+
+	$.data(
+		this,
+		"scrollCheck",
+		setTimeout(function() {
+			$myvid.pause();
+		}, 250)
+	);
+
+
 })
+
+
 
 </script>
 
