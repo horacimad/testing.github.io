@@ -240,6 +240,9 @@ footer {
     font-size: 400%;
     line-height: .7;
     font-weight: bold;
+    float: left;
+    clear: both;
+    padding: 0 .5rem 0 0;
 }
 
   .header h1 {
