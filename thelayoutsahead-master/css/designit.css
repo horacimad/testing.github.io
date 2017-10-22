@@ -238,7 +238,6 @@ footer {
 
   p:first-child:first-letter {
     font-size: 400%;
-    line-height: .7;
     font-weight: bold;
     float: left;
     clear: both;
