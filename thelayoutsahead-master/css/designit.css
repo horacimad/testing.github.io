@@ -42,7 +42,7 @@ htm, body {
   }
 
   .header h2 {
-    font-size: 5rem; /* 80px */
+    font-size: 3rem; /* 80px */
     margin: auto;
   }
 
@@ -59,6 +59,34 @@ article {
 
 .fifty, .sixty, .seventy, .eighty {
   max-width: 90%;
+}
+
+p.chapter {
+  position:  relative;
+  margin: auto;
+  padding: 20px;
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+.one {
+  flex-wrap: wrap;
+}
+
+.two {
+  flex-wrap: wrap;
+}
+
+.two h2 {
+  text-align: center;
+}
+
+.two h2 span {
+  font-size: 20rem;
+  background-color: none;
+  color: #000;
+  display: block;
+  line-height: 0.8;
 }
 
 .one::after {
@@ -150,8 +178,43 @@ footer {
     border: 0;
   }
 
+  .four .waterfall .mobrotate30 {
+    font-size: 3rem;
+    line-height: 100%;
+    text-align: right;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    height: auto;
+    width: 50vh;
+    display: block;
+  }
+
+  .header.four, .waterfall {
+    display: block;
+    height: auto;
+    margin: 20vh 0;
+  }
+
+  p:first-child:first-letter {
+    font-size: 480%;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    padding: 1.4rem 1rem 0 0;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  .header.four {
+    display: flex;
+  }
+
+
+  .header h2 {
+    font-size: 5rem; /* 80px */
+    margin: auto;
+  }
 
   .two {
     display: flex;
